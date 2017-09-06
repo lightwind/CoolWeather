@@ -1,12 +1,14 @@
 package com.lightwind.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * 功能：城市实体类
  * 作者：刘洋
  * 时间：2017/9/4
  */
 
-public class City {
+public class City extends DataSupport {
     // 序列号
     private int id;
     // 城市名字
